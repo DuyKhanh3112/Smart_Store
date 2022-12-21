@@ -1,0 +1,119 @@
+/* auto reset the screen on all devices */
+
+body {
+    background-color: #e9e6e6;
+    width: 100% !important;
+}
+
+#header h1 {
+    text-align: center;
+    margin: 2em auto 2em auto;
+    font-size: 45px;
+    color: #e0ac1c;
+}
+
+#header h1 b {
+    color: #000000;
+}
+
+.content {
+    margin: 0 4em 0 4em;
+}
+
+
+/* maps area */
+
+#map {
+    margin: 0 auto;
+    min-width: 30em;
+    height: 30em;
+}
+
+#inputs {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#inputs label {
+    font-size: 1.2em;
+}
+
+#inputs h4 {
+    font-size: 1.8em;
+}
+
+.btn-send {
+    text-align: center;
+}
+
+#send {
+    background-color: rgb(46, 46, 46);
+    color: #ffff;
+    font-size: 1.2em;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    text-transform: uppercase;
+}
+
+#send:hover {
+    background-color: rgb(189, 48, 48);
+}
+
+@media (max-width: 1200px) {
+    #map {
+        width: 100%;
+    }
+    #inputs {
+        width: 70%;
+        margin: 2em auto;
+    }
+}
+
+@media (max-width: 992px) {
+    #map {
+        width: 100%;
+    }
+    #inputs {
+        width: 100%;
+        margin: 2em auto 2em auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #map {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #inputs h4 {
+        font-size: 1.5em;
+    }
+    #header h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 576px) {
+    #map {
+        margin: 0 auto;
+        width: 10em !important;
+    }
+    #inputs {
+        width: 100%;
+        margin: 2em auto;
+    }
+    #inputs h4 {
+        font-size: 1.2em;
+    }
+    #inputs label {
+        font-size: 1em;
+    }
+    #send {
+        font-size: 1em;
+    }
+    #header h1 {
+        font-size: 1.7em;
+    }
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+}

@@ -1,0 +1,65 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+.mgin-top {
+    margin-top: 10em;
+}
+
+
+/* About Us Page */
+
+section img {
+    height: 500px;
+    padding-bottom: 20px;
+}
+
+#header {
+    margin-top: 7em;
+}
+
+#header h1 {
+    text-align: center;
+    color: #e0ac1c;
+    margin-bottom: 1em;
+    font-size: 45px;
+}
+
+#header h1 span {
+    color: #000000;
+    font-weight: bold;
+}
+
+#body {
+    font-size: medium;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#body img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    width: 25em;
+    height: auto;
+}
+
+#body p {
+    font-size: 1.2em;
+}
+
+#body span {
+    color: #e0ac1c;
+    font: 60px/50px Georgia, Times, san-serif;
+}
+
+@media (max-width: 576px) {
+    #header h1 {
+        font-size: 2.5em;
+    }
+    #body span {
+        font-size: 2em;
+    }
+    #body p {
+        text-align: left;
+        font-size: 1.1em;
+    }
+}
