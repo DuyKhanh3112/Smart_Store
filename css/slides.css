@@ -1,0 +1,94 @@
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Six columns side by side */
+
+.column {
+    float: left;
+    width: 19%;
+    padding-left: 0.5em;
+}
+
+.column img {
+    height: 7em !important;
+}
+
+.column:first-of-type {
+    margin-left: 0.5em;
+}
+
+
+/* Add a transparency effect for thumbnail images */
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    #img {
+        height: 55em;
+    }
+    .mySlides img {
+        height: 40em !important;
+    }
+    .column img {
+        height: 8.5em !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #img {
+        height: 50em;
+    }
+    .mySlides img,
+    .column img {
+        height: auto !important;
+    }
+    .mySlides img {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #img {
+        height: 55em;
+    }
+    .mySlides img,
+    .column img {
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 450px) {
+    #img {
+        height: 50em;
+    }
+    .mySlides img,
+    .column img {
+        width: auto !important;
+        height: auto !important;
+    }
+}
